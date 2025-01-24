@@ -1,0 +1,5 @@
+@use "../../assets/styles/colors" as colors;
+.footer {
+    color: colors.$very-dark-grayish-blue-dark-2;
+    @apply text-center;
+}

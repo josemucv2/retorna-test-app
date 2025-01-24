@@ -1,0 +1,26 @@
+@use "./colors" as colors;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.google.com/specimen/Josefin+Sans");
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: colors.$very-dark-blue;
+    height: 100vh;
+    transition: background-color 0.3s ease;
+}
+
+body.dark {
+    background-color: colors.$very-dark-blue;
+}
+
+body:not(.dark) {
+    background-color: colors.$very-light-gray;
+}

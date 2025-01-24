@@ -1,0 +1,44 @@
+@use "../../assets/styles/colors" as colors;
+
+.container_input {
+    height: 60px;
+    border-radius: 5px;
+    @apply flex items-center space-x-5 px-3;
+}
+
+.container_input input {
+    background-color: transparent;
+    border: transparent;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.container_input input:focus {
+    border: transparent;
+}
+
+.container_input input:focus-visible {
+    border: transparent;
+}
+
+.icon_active {
+    padding: 6px;
+    border-radius: 100%;
+    background: colors.$check-background;
+    @apply flex flex-col justify-center items-center;
+}
+
+.icon_inActive {
+    padding: 9px;
+    border-radius: 100%;
+    border: 1px solid colors.$very-dark-grayish-blue-dark-2;
+    @apply flex flex-col justify-center items-center;
+}
+
+.input {
+    color: colors.$dark-grayish-blue-dark;
+    font-weight: 700;
+    font-size: 16px;
+}

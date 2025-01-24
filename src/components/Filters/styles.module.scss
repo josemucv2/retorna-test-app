@@ -1,0 +1,17 @@
+@use "../../assets/styles/colors" as colors;
+
+.last_item {
+    height: 50px;
+    @apply flex justify-center items-center space-x-10;
+}
+
+.item {
+    font-size: 13px;
+    font-weight: 700;
+    color: colors.$dark-grayish-blue-dark;
+    @apply flex justify-center items-center space-x-10;
+}
+
+.active {
+    color: blue !important;
+}

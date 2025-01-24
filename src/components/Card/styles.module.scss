@@ -1,0 +1,17 @@
+@use "../../assets/styles/colors" as colors;
+
+.container {
+    border-radius: 5px;
+    background-color: colors.$very-dark-desaturated-blue;
+    -webkit-box-shadow: -1px 4px 79px -40px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 79px -40px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 79px -40px rgba(0, 0, 0, 0.75);
+}
+
+.container_light {
+    border-radius: 5px;
+    background-color: colors.$very-light-gray;
+    -webkit-box-shadow: -1px 4px 79px -40px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 79px -40px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 79px -40px rgba(0, 0, 0, 0.75);
+}
